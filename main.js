@@ -21,6 +21,7 @@ function showApple (){
     document.getElementById("explore").style.background = "#b6bcca";
     document.getElementById("explore").href = "https://www.apple.com/&#39";
     document.getElementById("page").style.background = "#b6bcca";
+    document.getElementById("button2").classList.add("active");
     document.getElementById("button1").classList.remove("active");
     document.getElementById("font").style.fontFamily = "cursive"
 
