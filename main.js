@@ -11,8 +11,9 @@ function showAndroid (){
     document.getElementById("explore").style.background = "#a4c93b";
     document.getElementById("page").style.background = "#a4c93b";
     //font family
-    document.getElementById("button1").classList.add("active")
-    document.getElementById("button2").classList.remove("active")
+    document.getElementById("button1").classList.add("active");
+    document.getElementById("button2").classList.remove("active");
+    document.getElementById("font").style.fontFamily = "fantasy";
 }
 
 function showApple (){
@@ -23,6 +24,5 @@ function showApple (){
     document.getElementById("page").style.background = "#b6bcca";
     document.getElementById("button2").classList.add("active");
     document.getElementById("button1").classList.remove("active");
-    document.getElementById("font").style.fontFamily = "cursive"
-
+    document.getElementById("font").style.fontFamily = "cursive";
 }
