@@ -12,6 +12,9 @@ function showAndroid (){
     document.getElementById("button1").classList.add("green");
     document.getElementById("button2").classList.remove("active");
     document.getElementById("font").style.fontFamily = "Roboto, sans-serif";
+    document.getElementById("thing").innerHTML = "You have choosen Android!"
+    document.getElementById("thing").classList.add("bruh");
+    document.getElementById("thing").classList.remove("breh");
 }
 
 function showApple (){
@@ -23,4 +26,8 @@ function showApple (){
     document.getElementById("button2").classList.add("active");
     document.getElementById("button1").classList.remove("green");
     document.getElementById("font").style.fontFamily = "'Brygada 1918', sans-serif";
+    document.getElementById("thing").innerHTML = "You have choosen Apple!"
+    document.getElementById("thing").classList.add("breh");
+    document.getElementById("thing").classList.add("bruh");
 }
+
