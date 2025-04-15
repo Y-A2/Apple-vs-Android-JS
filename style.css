@@ -1,0 +1,93 @@
+html{
+    background-color:#cabfb6;
+    }
+    
+    body{
+    background-color: white;
+    margin: 0px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 600px;
+    height: 900px;
+    font-family: Proza Libre;
+    }
+
+    
+    p, ol, li{
+        /* font-family: Open Sans; */
+    }
+
+    h2{
+        /* font-family: Proza Libre; */
+    }
+
+    #button{
+    /* font-family: Proza Libre; */
+    border: none;
+    background-color:#c9793b;
+    color: black;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    }
+
+    #button1{
+      background-color: #a4c93b;  
+      /* font-family: Proza Libre; */
+      text-align: center;
+      border-radius: 5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 6px;
+      padding-bottom: 4px;
+      font-size: 20px;
+    }
+
+    #button2{
+        background-color: #b6bcca;
+        /* font-family: Proza Libre; */
+        border-radius: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 6px;
+        padding-bottom: 4px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .butto{
+    color: beige;
+    background-color: #c9793b;
+    /* font-family: Proza Libre; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+
+    #id{
+    /* font-family: Proza Libre; */
+    }
+.center {
+    text-align: center;
+}
+
+.butto:hover {
+   color: aqua;
+   background-color:#b6bcca;
+   border: 2px dashed goldenrod;
+}
+
+.active {
+    border: 3px solid rgb(255, 84, 84);
+}
+
+.green {
+    border: 3px solid rgb(73, 108, 21);
+}
